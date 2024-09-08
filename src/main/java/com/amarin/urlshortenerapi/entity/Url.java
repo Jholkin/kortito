@@ -1,6 +1,7 @@
 package com.amarin.urlshortenerapi.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
+
 import java.util.Date;
 
 @Entity

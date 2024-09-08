@@ -3,9 +3,9 @@ package com.amarin.urlshortenerapi.service;
 import com.amarin.urlshortenerapi.dto.UrlLongRequest;
 import com.amarin.urlshortenerapi.entity.Url;
 import com.amarin.urlshortenerapi.repository.UrlRepository;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.EntityNotFoundException;
 import java.util.Date;
 
 @Service
